@@ -16,4 +16,5 @@ cache:
     - $HOME/.gradle/wrapper/
 
 script:
+  - echo "===>${ARTIFACTORY_USER}"
   - ./gradlew check --no-daemon
